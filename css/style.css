@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #989898;
+}
+
+#nav-bar{
+    background-color: #202020;
+    padding: 1.5rem 0;
+    position: relative;
+    width: 100%;
+}
+
+nav{
+    display: block;
+}
+
+#container-nav{
+    
+}
+
+#img-logo{
+    width: 250px;
+}
+
+#nav-links{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    
+}
+
+#nav-links li a{
+    text-decoration: none;
+    color: #ddff06;
+}

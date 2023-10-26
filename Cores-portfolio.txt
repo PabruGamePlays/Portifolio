@@ -1,0 +1,15 @@
+#acf213 verde 1 para destaques
+
+#c1f20f verde 2 para destaques
+
+#ddff06 verde 3 para destaques
+
+#808080 cinza 1 para fundo principal
+
+#202020 cinza 2 para fundo segundario
+
+#fcfef5 menta-clara para letras
+
+#94fc6f verde para hover
+
+#bff8aa verde para letras hover
