@@ -6,22 +6,39 @@
     <title>Pablo Miguel - Portfolio</title>
     <link rel="shortcut icon" href="img/poder-nuclear.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav id="nav-bar">
             <div id="container-nav">
-                <a id="link-logo" href="index.html"></a><img id="img-logo" src="img/Logo Pablo.svg" alt="Logo Pablo">
-                <nav id="nav-wrap">
+                <div id="part-icon">
+                    <a id="link-logo" href="index.html"><img id="img-logo" src="img/Logo Pablo.svg" alt="Logo Pablo"></a>
+                </div>
+                <div id="nav-wrap">
                     <ul id="nav-links">
-                        <li><a href="">Inicio</a></li>
-                        <li><a href="">Projetos</a></li>
-                        <li><a href="">Sobre</a></li>
+                        <li><a href="index.html" class="links-menu visitado">Inicio</a></li>
+                        <li><a href="sobre.html" class="links-menu">Sobre</a></li>
+                        <li><a href="projetos.html" class="links-menu">Projetos</a></li>
                     </ul>
-                </nav>
+                </div>
             </div>
         </nav>
+        <section id="apresentacao">
+            <div id="container-apre">
+                <p>Pablo Miguel</p>
+                <p class="verde">Desenvolvedor Full Stack</p>
+                <h1>Olá, eu sou o Pablo! <br>
+                Sou desenvolvedor Full Stack e UX Design, resido em Sorocaba - SP</h1>
+            </div>
+        </section>
     </header>
+
+    <footer>
+            <a href="" class="link-fot"><img src="img/poder-nuclear.png" alt="poder-nuclear" class="img-rodape"><p class="rodape-txt">FEITO POR PABLO MIGUEL</p></a>
+    </footer>
     
 </body>
 </html>
