@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #989898;
+    background-color: #838383;
 }
 
 #nav-bar{
@@ -57,7 +57,10 @@ body{
 
 #container-apre{
     width: 85%;
-    margin: 2.5rem auto;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
 }
 
 h1{
@@ -97,4 +100,128 @@ footer{
     text-decoration: none;
     display: flex;
     align-items: center;
+}
+
+#container-works{
+    width: 85%;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+}
+
+#works{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.fundo-work{
+    background-color: red;
+    width: 600px;
+    height: 450px;
+    margin-bottom: 15px;
+}
+
+.work-description p{
+    text-align: center;
+}
+
+#h2_exp{
+    font-size: 36px;
+    height: 50px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+#carreira-linhatempo{
+    margin-bottom: 60px;
+    width: 70%;
+}
+
+#galeria-experiencia{
+    margin-top: 50px;
+    display: flex;
+}
+
+.menor{
+    font-size: 12px;
+    height: 20px;
+}
+
+.caixa_work{
+    margin-right: 45px;
+}
+
+#send_email{
+    background-color: rgb(10, 10, 10);
+}
+
+#container_send{
+    width: 85%;
+    margin: 80px auto;
+}
+
+#enviar_email{
+    width: 40%;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#h3_verde{
+    margin: 10px 0;
+    font-size: 30px;
+    height: 44px;
+    font-weight: 400;
+    color: #ddff06;
+    text-align: center;
+}
+
+.btn-enviar{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 15px;
+    background-color: #ddff06;
+    color: #202020;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-enviar a{
+    font-size: 16px;
+    height: 28px;
+    font-weight: 700;
+    color: #202020;
+    text-decoration: none;
+}
+
+.btn-enviar:hover{
+    background-color: #202020;
+    border: solid 1px #ddff06;
+}
+
+.btn-enviar a:hover{
+    color: #ddff06;
+    text-decoration: underline;
+}
+
+.ao_lado{
+    position: fixed;
+    left: 0%;
+    right: auto;
+    top: 20%;
+    bottom: 0%;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ao_lado a{
+    margin-bottom: 10px;
+}
+
+.img_menor{
+    width: 40px;
 }
