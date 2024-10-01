@@ -1,0 +1,7 @@
+Cor do fundo: cinza 1 #767676
+
+Cinza 2 para detalhes escuros #202020
+
+verde 1 para letras verdes #ddff06
+
+cor hover para links hover #94fc6f
