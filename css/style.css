@@ -25,6 +25,7 @@
     margin: 0 5px;
     font-size: 14px;
     height: 20px;
+    opacity: .8;
 }
 .link-nav:hover{
     color: #94fc6f;
@@ -33,21 +34,26 @@
 }
 .link-nav.selecionado{
     font-weight: 600;
+    opacity: 1;
 }
 
 .curriculo{
     background-color: #dcff00;
     color: #202020;
     font-size: 14px;
+    font-weight: 500;
     height: 20px;
     padding: 9px 15px;
     text-decoration: none;
     border-radius: 10px;
+    opacity: .7;
 }
 
 .curriculo:hover{
     background-color: #94fc6f;
     text-decoration: underline;
+    opacity: 1;
+    transition: 1s;
 }
 
 body{
@@ -151,6 +157,11 @@ h3{
     line-height: 46px;
     font-weight: 400;
 }
+.p-big{
+    font-size: 28px;
+    line-height: 48px;
+    font-weight: 500;
+}
 .box-meio{
     display: flex;
     align-items: center;
@@ -175,4 +186,35 @@ h3{
     background-color: #202020;
     color: #dcff00;
     border: solid 1px #dcff00;
+}
+.black{
+    color: black;
+}
+.img-eu{
+    width: 350px;
+}
+.two-colum{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 1.5rem 0;
+    gap: 15rem;
+}
+.two-colum-txt{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 1.5rem 0;
+    gap: 5rem;
+}
+.one-colum{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.one-colum-35{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
